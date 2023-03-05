@@ -1,11 +1,13 @@
 import '../src/css/App.css';
-import Footer from './components/Footer';
+import Titulo from './components/Titulo';
 import Botoes from './components/Botoes';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <div className="App">
+      <Titulo />
       <Botoes/>
       <Footer/>
     </div>
