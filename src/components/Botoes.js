@@ -2,21 +2,21 @@ import '../css/Botoes.css';
 
 function Botoes() {
     return (
-        <div className="botoes">
+        <div className="container">
             <div>
-                <button>Botao 1</button>  
+                <button className="botoes">Botao 1</button>  
             </div>
             <div>
-                <button>Botao 2</button>
+                <button className="botoes">Botao 2</button>
             </div>
             <div>
-                <button>Botao 3</button>
+                <button className="botoes">Botao 3</button>
             </div>
             <div>
-                <button>Botao 4</button>
+                <button className="botoes">Botao 4</button>
             </div>
             <div>
-                <button>Botao 5</button>
+                <button className="botoes">Botao 5</button>
             </div>
         </div>
     )
