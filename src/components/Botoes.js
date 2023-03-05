@@ -1,6 +1,8 @@
+import '../css/Botoes.css';
+
 function Botoes() {
     return (
-        <>
+        <div className="botoes">
             <div>
                 <button>Botao 1</button>  
             </div>
@@ -16,7 +18,7 @@ function Botoes() {
             <div>
                 <button>Botao 5</button>
             </div>
-        </>
+        </div>
     )
 }
 
