@@ -1,22 +1,23 @@
 import '../css/Botoes.css';
+import Quiz from '../App/Quiz';
 
 function Botoes() {
     return (
         <div className="container">
             <div>
-                <button className="botoes">Botao 1</button>  
+                <button className="botoes" onClick={Quiz} id="botao1">Botao 1</button>  
             </div>
             <div>
-                <button className="botoes">Botao 2</button>
+                <button className="botoes" id="botao2">Botao 2</button>
             </div>
             <div>
-                <button className="botoes">Botao 3</button>
+                <button className="botoes" id="botao3">Botao 3</button>
             </div>
             <div>
-                <button className="botoes">Botao 4</button>
+                <button className="botoes" id="botao4">Botao 4</button>
             </div>
             <div>
-                <button className="botoes">Botao 5</button>
+                <button className="botoes" id="botao5">Botao 5</button>
             </div>
         </div>
     )
