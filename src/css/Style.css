@@ -1,0 +1,62 @@
+.container {
+    background-color: #261132;
+    border-radius: 15px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    height: min-content;
+    width: 450px;
+    min-height: 200px;
+}
+  
+.infoQuestoes {
+    position: relative;
+    width: 100%;
+}
+
+.contagemQuestoes {
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contagemQuestoes span {
+    font-size: 28px;
+}
+
+.questao {
+    margin-bottom: 12px;    
+}
+
+.grupoResposta {
+    align-items: baseline;
+    display: flex;
+    flex: 1 1 200px;
+    justify-content: center;
+}
+
+.resposta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    align-items: center;
+    background-color: #BA5C12;
+    border: 3px solid #3E2F5B;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    justify-content: flex-start;
+    margin: 0 12px 10px;
+    padding: 8px;
+    width: 100%;    
+}
+
+button:hover {
+    background-color: #261132;
+}
