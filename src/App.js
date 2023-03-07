@@ -1,17 +1,16 @@
 import '../src/css/App.css';
 import Titulo from './components/Titulo';
-import Botoes from './components/Botoes';
+import Quiz from './App/Quiz';
 import Footer from './components/Footer';
-
 
 function App() {
   return (
     <div className="App">
       <Titulo />
-      <Botoes/>
+      <Quiz />
       <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;
