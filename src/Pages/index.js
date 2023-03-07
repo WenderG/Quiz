@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Perguntas } from '../../data/perguntas';
-import './styles.css'
+import { Quiz } from '../App/Quiz';
+import '../Css/Style.css'
 
 export default function Quiz() {
   const questions = Perguntas ?? []

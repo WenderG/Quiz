@@ -1,7 +1,7 @@
-import '../src/css/App.css';
-import Titulo from './components/Titulo';
+import '../src/Css/App.css';
+import Titulo from './Components/Titulo';
 import Quiz from './App/Quiz';
-import Footer from './components/Footer';
+import Footer from './Components/Footer';
 
 function App() {
   return (
