@@ -2,7 +2,6 @@
 
 >Status: Finalizado.
 
-Site desenvolvido em React para jogar Quiz.
 <br>
 
 <h2>Sobre:</h2>
@@ -12,4 +11,5 @@ Este projeto dá continuação aos meus estudo em React. Depois do último proje
 <br>
 Durante o desenvolvimento do projeto me deparei com algumas difículdades. Uma delas foi a organização de pastas e arquivos para importação e exportação, confusão com nomes de funções e variáveis e deploy do projeto. Felizmente, consegui corrigir meus erros.
 <br>
-![1](https://user-images.githubusercontent.com/106935216/223732299-c84a5c8d-066f-46ac-9e18-ceeb02c1a142.png)
+
+![1](https://user-images.githubusercontent.com/106935216/223733526-ba08c2bb-5a82-461a-bb24-ed398efd0a87.png)
