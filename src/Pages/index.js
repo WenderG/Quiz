@@ -14,6 +14,8 @@ export default function Jogo() {
         }
     }
 
+    console.log(questions[questaoAtual])
+
     return (
         <div className='container'>
         {(
@@ -25,7 +27,7 @@ export default function Jogo() {
                 <div className="questao">{questions[questaoAtual].questao}</div>
             </div >
             <div className="resposta">
-                {questions[questaoAtual].opcoesResposta.map((opcoesResposta) =>
+                {questions[questaoAtual].respostas.map((opcoesResposta) =>
                 <div className="grupoResposta">
                     <span>{opcoesResposta.alternativa}</span>
                     <button onClick={() => proximaQuestao(opcoesResposta.correta)}>{opcoesResposta.resposta}</button>
