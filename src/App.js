@@ -1,7 +1,6 @@
-import '../src/Css/App.css';
 import Titulo from './Components/Titulo';
 import Jogo from './Pages/index';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer.js';
 
 function App() {
   return (

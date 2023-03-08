@@ -1,5 +1,3 @@
-import '../Css/Titulo.css';
-
 function Titulo() {
     return(
         <h1>Quiz: Programação</h1>    
